@@ -10,9 +10,11 @@ def calcul_clients_salaire(salaire_souhaite):
     return clients_necessaires
     return clients_necessaires2
     return clients_necessaires3
+    
+    # il faudra differencier et faire une formule par client !
 
 salaire_souhaite = float(input("Entrez le salaire souhaité en euros : "))
 clients_necessaires = calcul_clients_salaire(salaire_souhaite)
 
-print("Pour atteindre un smic, il vous faut", clients_necessaires,"clients")
+print("Pour atteindre un smic, il vous faut", clients_necessaires,"clients de type 1")
 print(f"Il vous faudra {clients_necessaires:.2f} clients à 500 euros chacun pour atteindre le salaire souhaité.")
