@@ -2,7 +2,9 @@ def find_flower(sign):
     flowers = {
         "bélier": "tulipe",
         "taureau": "rose",
+        "taureaux": "rose",
         "gémeaux": "lavande",
+        "gémeau": "lavande",
         "cancer": "lys",
         "lion": "tournesol",
         "vierge": "jacinthe",
@@ -11,7 +13,8 @@ def find_flower(sign):
         "sagittaire": "pivoine",
         "capricorne": "edelweiss",
         "verseau": "bleuet",
-        "poissons": "jonquille"
+        "poissons": "jonquille",
+        "poisson": "jonquille"
     }
     
     sign = sign.lower()
