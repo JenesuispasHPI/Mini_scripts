@@ -58,23 +58,52 @@ if plante in plantes_et_usages:
 else:
     print("Plante non trouvée dans la liste.")
     
-# Dictionnaire associant les plantes à leurs parties/organes recommandés
+# Dictionnaire# Dictionnaire associant les plantes à leurs parties/organes recommandés
 plantes_et_parties = {
     "Camomille": "Fleurs",
     "Menthe": "Feuilles",
     "Valériane": "Racines",
     "Mélisse": "Feuilles",
     "Thym": "Feuilles",
-    "Échinacée": "Racines et parties aériennes",
-    "Gingembre": "Rhizome",
-    "Passiflore": "Feuilles et fleurs",
+    "Échinacée": "Racines",
+    "Gingembre": "Racines",
+    "Passiflore": "Feuilles",
     "Calendula": "Fleurs",
-    "Aloe Vera": "Gel de la feuille",
+    "Aloe Vera": "Gel de feuilles",
     "Ginseng": "Racines",
     "Cannelle": "Écorce",
     "Réglisse": "Racines",
     "Sauge": "Feuilles",
-    "Ortie": "Feuilles"
+    "Ortie": "Feuilles",
+    "Romarin": "Feuilles",
+    "Lavande": "Fleurs",
+    "Fenouil": "Graines",
+    "Aubépine": "Fleurs et baies",
+    "Passionaria": "Feuilles",
+    "Achillée millefeuille": "Fleurs",
+    "Guimauve": "Racines",
+    "Houblon": "Cônes",
+    "Sureau": "Fleurs et baies",
+    "Eucalyptus": "Feuilles",
+    "Chardon Marie": "Graines",
+    "Passiflora": "Feuilles",
+    "Curcuma": "Racines",
+    "Pissenlit": "Feuilles et racines",
+    "Artichaut": "Feuilles",
+    "Boldo": "Feuilles",
+    "Griffonia": "Graines",
+    "Astragale": "Racines",
+    "Ail": "Bulbes",
+    "Ginkgo Biloba": "Feuilles",
+    "Passiflora incarnata": "Feuilles",
+    "Valeriana officinalis": "Racines",
+    "Hypericum perforatum": "Feuilles et fleurs",
+    "Matricaria chamomilla": "Fleurs",
+    "Salvia officinalis": "Feuilles",
+    "Urtica dioica": "Feuilles",
+    "Melissa officinalis": "Feuilles",
+    "Echinacea purpurea": "Racines",
+    # Ajoutez les autres plantes et leurs parties/organes correspondants ici
 }
 
 # Demande à l'utilisateur d'entrer le nom d'une plante
